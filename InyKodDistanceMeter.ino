@@ -6,6 +6,24 @@
 #define trigPin 9
 #define echoPin 8
 
+
+// Connection Schematics
+// 
+// OLED --> Arduino Nano
+// 
+// VCC - 5V
+// GND - GND
+// SCL - A5
+// SDA - A4
+// 
+// Radar --> Arduino Nano
+// 
+// VCC - 5V
+// GND - GND
+// ECHO - D8
+// TRIG - D9
+
+
 #define OLED_RESET -1
 Adafruit_SSD1306 display(OLED_RESET);
 
